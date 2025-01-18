@@ -14,9 +14,9 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ZeoXpro")
+OWNER_USERNAME = getenv("OWNER_USERNAME","ll_Raja_babu_ll")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","NezukoProBot")
+BOT_USERNAME = getenv("BOT_USERNAME","ANGELMUSICROBOT")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -35,14 +35,14 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002100130095))
-SUB_LOG = int(getenv("SUB_LOG", -1002375785889))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001978019908))
+SUB_LOG = int(getenv("SUB_LOG", -1001978019908))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7355202884))
+OWNER_ID = int(getenv("OWNER_ID", 7282582221))
 
 #temp
-MAIN_OWNER = int(getenv("OWNER_ID", 7355202884))
+MAIN_OWNER = int(getenv("OWNER_ID", 7282582221))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -64,10 +64,9 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-# ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/AimmXD/PROMUSIC",
+    "https://github.com/Anilji825/TESTMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -81,8 +80,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ProBotts")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ProBotGc")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FRIEND_KI_MASTI")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FRIEND_KI_MASTI")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -96,8 +95,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ProBotGc")
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
-AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "9999999"))
 # --------------------------------------------------------------------------------
