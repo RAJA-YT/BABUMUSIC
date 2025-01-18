@@ -14,9 +14,9 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_Raja_babu_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","ZeoXpro")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","ANGELMUSICROBOT")
+BOT_USERNAME = getenv("BOT_USERNAME","NezukoProBot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -35,14 +35,14 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1001978019908))
-SUB_LOG = int(getenv("SUB_LOG", -1001978019908))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002260119965))
+SUB_LOG = int(getenv("SUB_LOG", -1002260119965))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7282582221))
+OWNER_ID = int(getenv("OWNER_ID", 7391857972))
 
 #temp
-MAIN_OWNER = int(getenv("OWNER_ID", 7282582221))
+MAIN_OWNER = int(getenv("OWNER_ID", 7391857972))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -64,9 +64,10 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
+# ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Anilji825/TESTMUSIC",
+    "https://github.com/AimmXD/PROMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
